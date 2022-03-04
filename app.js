@@ -1,7 +1,7 @@
 const express = require('express');
 const http = require('http')
 
-require('/database/indexDB.js')
+require('./src/database/indexDB.js')
 
 //instaciar o express
 const app = express(); //A constante app está recebendo a biblioteca importada express
